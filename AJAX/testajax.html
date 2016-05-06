@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>	
+			<title>Testando AJAX</title>
+	</head>
+<body>
+
+<script>
+	function carregar(){
+		var xhr = new XMLHttpRequest();
+		xhr.onreadystatechange = function(){
+			if(xhr.readyState == 4 && xhr.status == 200){
+				var caixa = document.getElementById('caixa');
+					caixa.innerHTML = xhr.responseText;
+			}
+		}
+		xhr.open("GET", "mensagem.txt", true);
+		xhr.send();
+	
+	
+	}
+</script>
+
+	<div id="caixa">
+
+		<h2>Mensagem....</h2>
+
+	</div>
+	<input type="button" value="Carregar Mensagem" onclick="carregar()" /> 
+	<br><br>
+
+
+
+
+
+
+</body>
+</html>
