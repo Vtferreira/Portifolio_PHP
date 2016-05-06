@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Blog do 3º Semestre</title>
+		<title>Blog do 3Âº Semestre</title>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 		
 		<script>
+			function(){
 				
+				
+				
+				
+			}
+			}	
 		
 		
 		
@@ -14,7 +20,7 @@
 	</head>
 	<body>
 	
-		<h1>Blog do 3º Semestre</h1>
+		<h1>Blog do 3Âº Semestre</h1>
 		
 		<?php
 		
@@ -62,7 +68,7 @@
 							<br/>
 							<textarea name="conteudo"
 								rows="5" cols="50"
-								placeholder="Digite seu comentário"></textarea>
+								placeholder="Digite seu comentÃ¡rio"></textarea>
 							<br/>
 							<input type="submit" value="Postar"/>
 						</form>
